@@ -20,7 +20,13 @@ Bu projenin frontendi w3layouts'dan alınmıştır.
   * Entity Framework 
   * jQuery.Validation
 ## Blog
-<img  src = "https://imgyukle.com/f/2023/03/13/QgeXAH.jpeg" width = "1100" height = "500" alt = "1"/>
+<img  src = "https://imgyukle.com/f/2023/03/13/Qg3NBN.jpeg" width = "1100" height = "500" alt = "6"/>
+<img  src = "https://imgyukle.com/f/2023/03/13/Qg3cXY.jpeg" width = "1100" height = "500" alt = "7"/>
+<img  src = "https://imgyukle.com/f/2023/03/13/Qg3iPv.jpeg" width = "1100" height = "500" alt = "8"/>
+<img  src = "https://imgyukle.com/f/2023/03/13/Qg3mBM.jpeg" width = "1100" height = "500" alt = "9"/>
+<img  src = "https://imgyukle.com/f/2023/03/13/Qg3KX8.jpeg" width = "1100" height = "500" alt = "10"/>
+<img  src = "https://imgyukle.com/f/2023/03/13/Qg3Uko.jpeg" width = "1100" height = "500" alt = "11"/>
+<img  src = "https://imgyukle.com/f/2023/03/13/Qg3WaU.jpeg" width = "1100" height = "500" alt = "12"/>
 
 ## Admin Panel
 
