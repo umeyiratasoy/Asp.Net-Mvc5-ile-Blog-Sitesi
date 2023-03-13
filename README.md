@@ -19,12 +19,16 @@ Bu projenin frontendi w3layouts'dan alınmıştır.
   * WebGrease
   * Entity Framework 
   * jQuery.Validation
+## Blog
+<img  src = "https://imgyukle.com/f/2023/03/13/QgeXAH.jpeg" width = "1100" height = "500" alt = "1"/>
 
 ## Admin Panel
 
 <img  src = "https://imgyukle.com/f/2023/03/13/QgeXAH.jpeg" width = "1100" height = "500" alt = "1"/>
-<img  src = "https://imgyukle.com/f/2023/03/13/QgevOs.jpeg" width = "1100" height = "500" alt = "1"/>
-
+<img  src = "https://imgyukle.com/f/2023/03/13/QgevOs.jpeg" width = "1100" height = "500" alt = "2"/>
+<img  src = "https://imgyukle.com/f/2023/03/13/QgeFO0.jpeg" width = "1100" height = "500" alt = "3"/>
+<img  src = "https://imgyukle.com/f/2023/03/13/QgewCM.jpeg" width = "1100" height = "500" alt = "4"/>
+<img  src = "https://imgyukle.com/f/2023/03/13/Qg3yFG.jpeg" width = "1100" height = "500" alt = "5"/>
 
 
 
