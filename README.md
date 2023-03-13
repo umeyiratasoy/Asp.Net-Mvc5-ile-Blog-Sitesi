@@ -22,7 +22,7 @@ Bu projenin frontendi w3layouts'dan alınmıştır.
 
 ## Admin Panel
 
-<img  src = "https://imgyukle.com/f/2023/03/13/QgeXAH.jpeg" width = "500" height = "500" alt = "1"/>
+<img  src = "https://imgyukle.com/f/2023/03/13/QgeXAH.jpeg" width = "1000" height = "500" alt = "1"/>
  
 
 
