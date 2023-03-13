@@ -1,0 +1,9 @@
+﻿@using TravelTripProje.Models.Siniflar
+@model TravelTripProje.Models.Siniflar.BlogYorum
+
+@foreach (var y in Model.Deger3)
+{
+    <ul>
+        <li><a href="~/Blog/BlogDetay/@y.Id">@y.Baslik</a></li>
+    </ul>
+}

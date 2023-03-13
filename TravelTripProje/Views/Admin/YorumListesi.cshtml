@@ -1,0 +1,39 @@
+﻿@using PagedList.Mvc
+@using PagedList
+@using TravelTripProje.Models.Siniflar
+@model PagedList.IPagedList<Yorumlar>
+@{
+    ViewBag.Title = "YorumListesi";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Yorum Listesi</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th class="hidden">Id</th>
+        <th>Kullanıcı</th>
+        <th>Mail</th>
+        <th>Yorum</th>
+        <th>Blog</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+
+
+            <td class="hidden">@x.ID</td>
+            <td>@x.KullaniciAdi</td>
+            <td>@x.Mail</td>
+            <td>@x.Yorum</td>
+            <td><a target="_blank" href="/Blog/BlogDetay/@x.Blogid">@x.Blog.Baslik</a></td>
+            <td><a href="/Admin/YorumSil/@x.ID" class="btn btn-danger">Sil</a></td>
+            <td><a href="/Admin/YorumGetir/@x.ID" class="btn btn-warning">Düzenle</a></td>
+
+        </tr>
+    }
+</table>
+@Html.PagedListPager((IPagedList)Model, p => Url.Action("YorumListesi", new { p }))
+

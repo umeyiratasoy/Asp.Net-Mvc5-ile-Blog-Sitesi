@@ -1,0 +1,73 @@
+﻿
+@using TravelTripProje.Models.Siniflar
+@model TravelTripProje.Models.Siniflar.BlogYorum
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link href="~/blog/css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="~/blog/css/style.css" rel='stylesheet' type='text/css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Personal Blog Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!----webfonts---->
+    <link href='http://fonts.googleapis.com/css?family=Oswald:100,400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,300italic' rel='stylesheet' type='text/css'>
+    <!----//webfonts---->
+
+</head>
+<body>
+    <!---header---->
+    <!--/header-->
+    <div class="content">
+        <div class="container">
+            <div class="content-grids">
+                <div class="col-md-8 content-main">
+                    <div class="content-grid">
+                        <div class="content-grid-info">
+                            @Html.Action("Bloglar", "Blog")
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4 content-right">
+                    <div class="recent">
+                        <h3>En Son Bloglar</h3>
+                        <ul>
+                            @Html.Action("SonBlog", "Blog")
+                        </ul>
+                    </div>
+                    <div class="comments">
+                        <h3>En Son Yorumlar</h3>
+                        <ul>
+                            @Html.Action("SonYorum", "Blog")
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+

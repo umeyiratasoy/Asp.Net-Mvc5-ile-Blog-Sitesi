@@ -1,0 +1,35 @@
+﻿@model TravelTripProje.Models.Siniflar.iletisim
+@{
+    ViewBag.Title = "iletisim";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<div class="contact-content">
+    <div class="container">
+        <div class="contact-info">
+            <h2>İletişim</h2>
+            <p>Bilgileri doldurup gönderiniz.</p>
+        </div>
+        <div class="contact-details">
+            <form class="form-group" method="post">
+                @Html.LabelFor(x => x.AdSoyad)
+                @Html.TextBoxFor(x => x.AdSoyad, new { @class = "form-control" })
+                <br />
+                @Html.LabelFor(x => x.Mail)
+                @Html.TextBoxFor(x => x.Mail, new { @class = "form-control", type = "email" })
+                <br />
+                @Html.LabelFor(x => x.Konu)
+                @Html.TextBoxFor(x => x.Konu, new { @class = "form-control",  })
+                <br />
+                @Html.LabelFor(x => x.Mesaj)
+                @Html.TextAreaFor(x => x.Mesaj, 15, 1, new { @class = "form-control" })
+                <br />
+                <button class="btn btn-danger">Gönder</button>
+            </form>
+        </div>
+
+
+
+    </div>
+</div>
+

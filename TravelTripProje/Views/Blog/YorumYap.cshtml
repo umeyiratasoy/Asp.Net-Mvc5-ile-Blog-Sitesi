@@ -1,0 +1,13 @@
+﻿
+
+<div class="content-form">
+        <h3>Bir yorum yapın</h3>
+        <form method="post">
+            <input type="text" class="hidden" placeholder="ID" name="BlogId" value="@ViewBag.Deger"  required readonly="readonly"  />
+            <input type="text" placeholder="Adı Soyadı" name="KullaniciAdi" required />
+            <input type="text" typeof="email" placeholder="Mail Adresi" name="Mail" required />
+            <textarea placeholder="Yorum" name="Yorum"></textarea>
+            <input type="submit" value="Gönder" />
+        </form>
+</div>
+

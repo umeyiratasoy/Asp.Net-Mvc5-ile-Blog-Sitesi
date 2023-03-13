@@ -1,0 +1,18 @@
+﻿@using TravelTripProje.Models.Siniflar
+@using PagedList
+@using PagedList.Mvc
+@model PagedList.IPagedList<Blog>
+
+
+@foreach (var x in Model)
+{
+
+    <img src="@x.BlogImage" alt="" style="margin-bottom:20px; height:400px; width:900px;" />
+    <div class="post-info">
+        <h4><a href="/Blog/BlogDetay/@x.Id">@x.Baslik</a>  @x.Tarih.ToString("dd:MM:yyyy")</h4>
+        <p>@x.Aciklama.Substring(0, 300)...</p>
+        <a href="/Blog/BlogDetay/@x.Id"><span></span>Daha Fazla Oku</a>
+    </div>
+}
+@Html.PagedListPager((IPagedList)Model, p => Url.Action("Index/", new { p }))
+

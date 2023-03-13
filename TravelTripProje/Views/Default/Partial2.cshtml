@@ -1,0 +1,24 @@
+﻿@using TravelTripProje.Models.Siniflar
+@model List<Blog>
+@{
+    Layout = null;
+}
+
+@foreach (var x in Model)
+            {
+                <div class="right">
+                    <div class="bot-left">
+                        <img src="@x.BlogImage" alt="" style="width:280px; height:150px;" />
+                    </div>
+                    <div class="left-text">
+                        <h4>@x.Baslik</h4>
+                        <span class="doller">@x.Tarih.ToString("dd:MM:yyyy")</span>
+                        <p>@x.Aciklama.Substring(0, 80)...</p>
+                        <p><a href="/Blog/BlogDetay/@x.Id" class="read">Devamını Oku >></a></p>
+                    </div>
+                </div>
+            }
+
+
+
+

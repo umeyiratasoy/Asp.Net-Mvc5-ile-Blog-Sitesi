@@ -1,0 +1,8 @@
+﻿@using TravelTripProje.Models.Siniflar
+@model TravelTripProje.Models.Siniflar.BlogYorum
+
+@foreach (var x in Model.Deger4)
+{
+
+    <li><a href="/Blog/BlogDetay/@x.Blogid">@x.KullaniciAdi </a> on <a href="/Blog/BlogDetay/@x.Blogid">@x.Yorum...</a></li>
+}
