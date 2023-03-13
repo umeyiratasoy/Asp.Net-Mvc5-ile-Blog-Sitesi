@@ -19,6 +19,22 @@ Bu projenin frontendi w3layouts'dan alınmıştır.
   * WebGrease
   * Entity Framework 
   * jQuery.Validation
+## Getting Started
+
+### Kurulum
+
+1. Depoyu klonlayın::
+
+   ```sh
+   git clone https://github.com/umeyiratasoy/Asp.Net-Mvc5-ile-Blog-Sitesi.git
+   ```
+2. `TravelTripProje.sln` dosyasını `Visual Studio` ile açın.
+3. `Web.Config` dosyasındaki `connectionStrings` kısmını açın ve kendi veritabanı bağlantı dizginizi girin
+4. `Package Manager Console` kullanarak veritabanını oluşturun.
+5. `Default` un içinde `Index.cshtml` sağ tıklayıp `View in Browser` e tıklayıp blogu açın. 
+
+
+
 ## Blog
 <img  src = "https://imgyukle.com/f/2023/03/13/Qg3NBN.jpeg" width = "1100" height = "500" alt = "6"/>
 <img  src = "https://imgyukle.com/f/2023/03/13/Qg3cXY.jpeg" width = "1100" height = "500" alt = "7"/>
