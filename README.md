@@ -38,7 +38,7 @@ Bu projenin frontendi w3layouts'dan alınmıştır.
 ## Görünüm
 Projenin frontend görselleri aşağıdaki bağlantıya tıklayarak gidebilirsiniz.
 <br>
-<a href="https://goo.by/knncp" /> Bağlantı 
+<a href="https://goo.by/knncp" target="_blank"/> Bağlantı 
 
 
 
